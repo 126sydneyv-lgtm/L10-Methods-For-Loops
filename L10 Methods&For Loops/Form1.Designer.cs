@@ -70,7 +70,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 19);
+            this.label1.Size = new System.Drawing.Size(263, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "In this lesson we will:";
             // 
@@ -87,7 +87,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(315, 19);
+            this.label3.Size = new System.Drawing.Size(384, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "1 - Review methods without returns";
             // 
@@ -96,7 +96,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 47);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(396, 19);
+            this.label4.Size = new System.Drawing.Size(483, 23);
             this.label4.TabIndex = 3;
             this.label4.Text = "2 - Learn how to write methods with returns";
             // 
@@ -105,7 +105,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 66);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(279, 19);
+            this.label5.Size = new System.Drawing.Size(340, 23);
             this.label5.TabIndex = 4;
             this.label5.Text = "3 - Learn some for loop basics";
             // 
@@ -114,7 +114,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(12, 85);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(1071, 19);
+            this.label6.Size = new System.Drawing.Size(1308, 23);
             this.label6.TabIndex = 5;
             this.label6.Text = "---------------------------------------------------------------------------------" +
     "-------------------------------------";
@@ -132,7 +132,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(12, 123);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(189, 19);
+            this.label8.Size = new System.Drawing.Size(230, 23);
             this.label8.TabIndex = 7;
             this.label8.Text = "Enter the sale price";
             // 
@@ -141,7 +141,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(12, 181);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(189, 19);
+            this.label9.Size = new System.Drawing.Size(230, 23);
             this.label9.TabIndex = 8;
             this.label9.Text = "Enter the sale price";
             // 
@@ -174,7 +174,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(12, 308);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(189, 19);
+            this.label13.Size = new System.Drawing.Size(230, 23);
             this.label13.TabIndex = 12;
             this.label13.Text = "Enter your last name";
             // 
@@ -183,7 +183,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(12, 327);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(198, 19);
+            this.label14.Size = new System.Drawing.Size(241, 23);
             this.label14.TabIndex = 13;
             this.label14.Text = "Enter your first name";
             // 
@@ -200,7 +200,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(12, 413);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(243, 19);
+            this.label16.Size = new System.Drawing.Size(296, 23);
             this.label16.TabIndex = 15;
             this.label16.Text = "Enter the cost of the item";
             // 
@@ -209,7 +209,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(12, 443);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(234, 19);
+            this.label17.Size = new System.Drawing.Size(285, 23);
             this.label17.TabIndex = 16;
             this.label17.Text = "Enter the number of items";
             // 
@@ -221,54 +221,55 @@
             this.calculateTotalPrice.TabIndex = 17;
             this.calculateTotalPrice.Text = "Calculate";
             this.calculateTotalPrice.UseVisualStyleBackColor = true;
+            this.calculateTotalPrice.Click += new System.EventHandler(this.calculateTotalPrice_Click);
             // 
             // beforeTaxBox
             // 
             this.beforeTaxBox.Location = new System.Drawing.Point(426, 107);
             this.beforeTaxBox.Name = "beforeTaxBox";
-            this.beforeTaxBox.Size = new System.Drawing.Size(100, 26);
+            this.beforeTaxBox.Size = new System.Drawing.Size(100, 31);
             this.beforeTaxBox.TabIndex = 18;
             // 
             // beforeTaxBox2
             // 
             this.beforeTaxBox2.Location = new System.Drawing.Point(426, 162);
             this.beforeTaxBox2.Name = "beforeTaxBox2";
-            this.beforeTaxBox2.Size = new System.Drawing.Size(100, 26);
+            this.beforeTaxBox2.Size = new System.Drawing.Size(100, 31);
             this.beforeTaxBox2.TabIndex = 19;
             // 
             // squareTextBox
             // 
             this.squareTextBox.Location = new System.Drawing.Point(426, 217);
             this.squareTextBox.Name = "squareTextBox";
-            this.squareTextBox.Size = new System.Drawing.Size(100, 26);
+            this.squareTextBox.Size = new System.Drawing.Size(100, 31);
             this.squareTextBox.TabIndex = 20;
             // 
             // lastNameBox
             // 
             this.lastNameBox.Location = new System.Drawing.Point(426, 289);
             this.lastNameBox.Name = "lastNameBox";
-            this.lastNameBox.Size = new System.Drawing.Size(100, 26);
+            this.lastNameBox.Size = new System.Drawing.Size(100, 31);
             this.lastNameBox.TabIndex = 21;
             // 
             // firstNameBox
             // 
             this.firstNameBox.Location = new System.Drawing.Point(426, 321);
             this.firstNameBox.Name = "firstNameBox";
-            this.firstNameBox.Size = new System.Drawing.Size(100, 26);
+            this.firstNameBox.Size = new System.Drawing.Size(100, 31);
             this.firstNameBox.TabIndex = 22;
             // 
             // itemCostBox
             // 
             this.itemCostBox.Location = new System.Drawing.Point(426, 413);
             this.itemCostBox.Name = "itemCostBox";
-            this.itemCostBox.Size = new System.Drawing.Size(100, 26);
+            this.itemCostBox.Size = new System.Drawing.Size(100, 31);
             this.itemCostBox.TabIndex = 23;
             // 
             // numberOfItemsBox
             // 
             this.numberOfItemsBox.Location = new System.Drawing.Point(426, 443);
             this.numberOfItemsBox.Name = "numberOfItemsBox";
-            this.numberOfItemsBox.Size = new System.Drawing.Size(100, 26);
+            this.numberOfItemsBox.Size = new System.Drawing.Size(100, 31);
             this.numberOfItemsBox.TabIndex = 24;
             // 
             // calcTotalPrice2
@@ -279,6 +280,7 @@
             this.calcTotalPrice2.TabIndex = 25;
             this.calcTotalPrice2.Text = "Calculate";
             this.calcTotalPrice2.UseVisualStyleBackColor = true;
+            this.calcTotalPrice2.Click += new System.EventHandler(this.calcTotalPrice2_Click);
             // 
             // calcSquareButton
             // 
@@ -288,6 +290,7 @@
             this.calcSquareButton.TabIndex = 26;
             this.calcSquareButton.Text = "Calculate";
             this.calcSquareButton.UseVisualStyleBackColor = true;
+            this.calcSquareButton.Click += new System.EventHandler(this.calcSquareButton_Click);
             // 
             // reOrderButton
             // 
@@ -297,6 +300,7 @@
             this.reOrderButton.TabIndex = 27;
             this.reOrderButton.Text = "ReOrder";
             this.reOrderButton.UseVisualStyleBackColor = true;
+            this.reOrderButton.Click += new System.EventHandler(this.reOrderButton_Click);
             // 
             // calcTotalPriceButton
             // 
@@ -306,6 +310,7 @@
             this.calcTotalPriceButton.TabIndex = 28;
             this.calcTotalPriceButton.Text = "Calc Total";
             this.calcTotalPriceButton.UseVisualStyleBackColor = true;
+            this.calcTotalPriceButton.Click += new System.EventHandler(this.calcTotalPriceButton_Click);
             // 
             // forLoopsButton
             // 
@@ -315,6 +320,7 @@
             this.forLoopsButton.TabIndex = 29;
             this.forLoopsButton.Text = "Click Me for For Loops Fun";
             this.forLoopsButton.UseVisualStyleBackColor = true;
+            this.forLoopsButton.Click += new System.EventHandler(this.forLoopsButton_Click);
             // 
             // afterTaxOutput
             // 
@@ -353,7 +359,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 658);
             this.Controls.Add(this.totalPriceOutputLabel);
@@ -392,9 +398,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Lesson 10:  Methods with Returns and For Loops";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
